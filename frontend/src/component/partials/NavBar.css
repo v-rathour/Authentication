@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgb(141, 213, 213);
+    
+}
+
+.nav-bar{
+    width: 80%;
+    margin: 0px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+
+}
+
+.buttons li{
+    list-style: none;
+    margin: 0px 30px;
+}
+
+.buttons li a{
+    text-decoration: none;
+}
